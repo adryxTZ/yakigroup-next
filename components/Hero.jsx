@@ -7,7 +7,7 @@ export default function Banner() {
 
         <div className="container mx-auto flex flex-col items-center px-4 py-16 text-center md:py-32 md:px-10 lg:px-32 xl:max-w-3xl">
             <h1 className="text-4xl font-bold leading-none sm:text-5xl">YAKI GROUP
-                <span className="text-orange-600"> <br/> a company to travel</span>
+                <span className="text-orange-600"> <br/> A travel company</span>
             </h1>
             <p className="px-8 mt-8 mb-12 text-lg">If you will never go, you will never know</p>
             <div className="flex flex-wrap justify-center">

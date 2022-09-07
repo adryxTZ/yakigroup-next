@@ -7,7 +7,7 @@ import { BellIcon, MenuIcon, XIcon } from '@heroicons/react/outline'
 
 const navigation = [
   { name: 'Home', href: '#', current: true },
-  { name: 'Tours', href: '#', current: false },
+  { name: 'Tours', href: 'tour', current: false },
   { name: 'Contact', href: '#', current: false },
   { name: 'About', href: '#', current: false },
 ]
@@ -45,14 +45,14 @@ export default function Example() {
                   />
               
                 </div>
-                <div className="hidden sm:block sm:ml-6 ">
+                <div className="hidden sm:block sm:ml-6">
                   <div className="flex space-x-4">
                     {navigation.map((item) => (
                       <a
                         key={item.name}
                         href={item.href}
                         className={classNames(
-                          item.current ? 'font-semibold text-green-900' : 'text-green-500  hover:text-green-900 font-bold',
+                          item.current ? 'font-bold text-green-700' : 'text-green-500  hover:text-green-700 font-bold',
                           'px-3 py-2 rounded-md text-sm font-semibold'
                         )}
                         aria-current={item.current ? 'page' : undefined}

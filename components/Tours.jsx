@@ -15,7 +15,7 @@ const Tours = () => {
 		<h2 className="text-5xl font-bold text-green-700"><span className="text-orange-600">Our</span> Tours</h2>
 		</div>
 		<div className="grid grid-cols-1 gap-x-4 gap-y-8 md:grid-cols-2 lg:grid-cols-4">
-			<article className="shadow flex flex-col bg-green-100 rounded">
+			<article className="shadow flex flex-col bg-green-100 rounded ">
 				<a rel="noopener noreferrer" href="#" aria-label="Te nulla oportere reprimique his dolorum">
 					<Image alt="" className="object-cover w-full h-52 bg-green-700" src={machame} height={400} width={500} />
 				</a>

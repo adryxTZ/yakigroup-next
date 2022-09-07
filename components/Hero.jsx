@@ -2,7 +2,7 @@ import Image from 'next/image'
 import bg from '../public/banner/sunset-pool.jpg'
 export default function Banner() {
     return (
-        <section className="w-full bg-center bg-cover bg-green-100 text-green-700 bg-fixed" style={{backgroundImage: `url(${bg.src}) `, width: '1920', height: '800'}}>
+        <section className="w-full relative bg-center bg-cover bg-green-100 text-green-700 bg-fixed " style={{backgroundImage: `url(${bg.src}) `, width: '1920', height: '800'}}>
         {/* // <section className=" bg-green-100 text-green-700"> */}
 
         <div className="container mx-auto flex flex-col items-center px-4 py-16 text-center md:py-32 md:px-10 lg:px-32 xl:max-w-3xl ">
